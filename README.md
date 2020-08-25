@@ -1,2 +1,4 @@
 # Switched-System-Target-Estimation
 Developed a MATLAB simulation of a drone tracking a target within a continuous environment. Linearizes non-linear target dynamics by employing a single integrator approach to estimate the target’s orientation. Designed environment that restricts the drone from measuring the target in certain areas and increases the covariance of the estimated state of the target while providing a lower bound on the measurement time verses unmeasured time. Utilizes a standard adaptive controller to approximate the target’s state and reduces the convergence time by more than 70%.
+
+Concurrently collaborating with the Air Force Research Lab (AFRL) and the University of Florida to implement the Standard Adaptive Controller as well as the Concurrent Learning Controller. Long term, the project would include a multi-agent model allowing tracking of multiple targets with multiple drones.
